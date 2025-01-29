@@ -1,0 +1,16 @@
+[
+  {
+    "name": "palika management",
+    "nepali-name": "पालिका प्रबन्धन", 
+    "icon": "dashboard",
+    "identity": "menu",
+    "to": "/admin/palika"
+  },
+  {
+    "name": "accounts management",
+    "nepali-name": "प्रयोगकर्ता",
+    "icon": "supervisor_account",
+    "identity": "menu",
+    "to": "/admin/accounts"
+  }
+]

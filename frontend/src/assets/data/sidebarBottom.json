@@ -1,0 +1,16 @@
+[
+  {
+    "name": "account",
+    "nepali-name": "खाता",
+    "icon": "manage_accounts",
+    "identity": "menu",
+    "to": "/dashboard/account"
+  },
+  {
+    "name": "notifications",
+    "nepali-name": "सूचनाहरू",
+    "icon": "notifications",
+    "identity": "menu",
+    "to": "/dashboard/notifications"
+  }
+]

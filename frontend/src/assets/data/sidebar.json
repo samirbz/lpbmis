@@ -1,0 +1,16 @@
+[
+  {
+    "name": "overview",
+    "nepali-name": "अवलोकन",
+    "icon": "dashboard",
+    "identity": "menu",
+    "to": "/dashboard"
+  },
+  {
+    "name": "projects",
+    "nepali-name": "परियोजनाहरू",
+    "icon": "tactic",
+    "identity": "menu",
+    "to": "/dashboard/projects"
+  }
+]

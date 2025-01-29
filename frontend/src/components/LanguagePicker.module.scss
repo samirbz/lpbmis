@@ -1,0 +1,28 @@
+.language-picker {
+  display: block;
+
+  &_form {
+    display: flex;
+
+    & .language-picker-select {
+      padding: 0.5rem;
+      padding-right: 2rem;
+      border: 1px solid gray;
+      border-radius: 5rem;
+      font-size: 1rem;
+      background-color: gray;
+      color: #333;
+      cursor: pointer;
+      appearance: none;
+      background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><path d="M7 10l5 5 5-5H7z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+      background-repeat: no-repeat;
+      background-position: right 0.5rem center;
+
+      &:focus,
+      &:focus-visible {
+        outline: none;
+        border: 1px solid vars.$c-blue-fair-200;
+      }
+    }
+  }
+}
